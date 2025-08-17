@@ -1,16 +1,6 @@
 #!/bin/bash
 
-# 1. Ask for the user's name
-echo "Hi, what is your name?"
-read name
-
-# 2. Display a welcome message with figlet
-echo "Welcome, $name!"
-pkg install figlet -y
-figlet "Welcome, $name!"
-
-# 3. Ask for the NetHunter version
-echo "Which version of NetHunter would you like to install?"
+echo "select image"
 echo "1. nethunter rootfs full arm64"
 echo "2. nethunter rootfs minimal arm64"
 echo "3. nethunter rootfs nano arm64"
